@@ -6,7 +6,6 @@ import {useEffect, useState} from "react";
 
 function App() {
     const [data, setData] = useState(null);
-    const [loading, setLoading] = useState(false);
     const [showModal, setShowModal] = useState(false)
 
     function handleToggleModal() {
@@ -15,7 +14,6 @@ function App() {
 
     useEffect(() => {
         async function fetchAPIdata() {
-            const NASA_KEY = import.meta.VITE_NASA_API_KEY;
             const url = 'https://api.nasa.gov/planetary/apod?api_key=' + `m7zRlvIrmaaD5hqgmNgH1Y9KmfbkVx4CgQ5lRz37`;
 
             const localKey = `NASA-${new Date().toDateString()}`;
@@ -30,7 +28,7 @@ function App() {
             try{
                 const res = await fetch(url);
                 const apiData = await res.json();
-                localStorage.setItem(localKey, JSON.stringify(data));
+                localStorage.setItem(localKey, JSON.stringify(apiData));
                 setData(apiData);
                 console.log("Fetched from API today");
             }
