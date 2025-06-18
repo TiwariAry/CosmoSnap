@@ -14,7 +14,7 @@ function App() {
 
     useEffect(() => {
         async function fetchAPIdata() {
-            const url = 'https://api.nasa.gov/planetary/apod?api_key=' + import.meta.env.NASA_API_KEY;
+            const url = 'https://api.nasa.gov/planetary/apod?api_key=' + import.meta.env.VITE_NASA_API_KEY;
 
             const localKey = `NASA-${new Date().toDateString()}`;
             if (localStorage.getItem(localKey)) {
