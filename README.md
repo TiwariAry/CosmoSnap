@@ -33,8 +33,7 @@ CosmoSnap is a lightweight web application that fetches and displays NASA's Astr
 
 ## 🌿 System Overview
 
-<!-- Add architecture diagram here -->
-<!-- ![System Architecture](link-to-diagram) -->
+<img width="1297" height="565" alt="image" src="https://github.com/user-attachments/assets/4e2f60fa-c2cf-411c-9816-6109f95f3468" />
 
 ---
 
