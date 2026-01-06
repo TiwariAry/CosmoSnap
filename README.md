@@ -3,7 +3,7 @@
 
 CosmoSnap is a lightweight web application that fetches and displays NASA's Astronomy Picture of the Day (APOD) along with its description using NASA's public API. The application focuses on clean data consumption, efficient API usage, and a responsive user interface for daily content updates.
 
-🌐 **Live App**: [CosmoSnap](#)
+🌐 **Live App**: [CosmoSnap](https://cosmo-snap.vercel.app)
 <br/>
 
 <!-- Add screenshots here -->
@@ -26,7 +26,7 @@ CosmoSnap is a lightweight web application that fetches and displays NASA's Astr
 
 | Frontend       | API              | Deployment       |
 |----------------|------------------|------------------|
-| React.js       | NASA APOD API    | (Optional)       |
+| React.js       | NASA APOD API    | Vercel           |
 | CSS            |                  |                  |
 
 ---
